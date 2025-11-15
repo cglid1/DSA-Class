@@ -1,4 +1,8 @@
-public class node{
+
+
+public class doubleLL{
+    
+    public class node{
     int data;//node class definition
     node next;
     node previous;
@@ -8,8 +12,6 @@ public class node{
         this.previous = null;
     }
 }
-
-public class doubleLL{
     node head;//variables
     node tail;
     public doubleLL(){
